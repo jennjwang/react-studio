@@ -1,33 +1,19 @@
 # React Studio
 
-Use this stencil code to get started!
+## Describe the goal of the application and value to a user
 
-Make sure you're signed into your GitHub account (either real or anonymous is fine for this).
+The goal of the application is to provide a scrollable, interactive bakery menu. Its value to a user is allowing them the flexbility to add items to a shopping cart, display the items in the cart, and display the total price of the cart item to inform them of their purchase.
 
-If you do not follow these three steps, your react app WILL NOT DEPLOY CORRECTLY!
+## Link to your deployed web application running online
 
-1) Start to copy the stencil by clicking the green **"Use this template"** button above.
+https://jennjwang.github.io/react-studio/
 
-2) In the configuration menu, set the name to `react-studio` and **make it Public**
+## Explain the organization of your Components, and the props and state related to them
 
-3) Lastly, you MUST **check "Include all branches"**
+The primary component App contains a list of BakeryItem corresponding to each item in the bakery data.
 
-Then, click "create repository from template" to create the repo in your github account. You can now clone the repository onto your local computer and open it in your editor of choice.
+I utilized two state variables to keep track of what’s in the shopping cart - one for the total cost, and the other for the individual items. The BakeryItem component takes in the name, description, and price of an item to render the view of that item. I then use the map function to render each item and callback functions to update the state.
 
-## Getting started
+## Note the usability principles considered for layout and hierarchy
 
-First, make sure you install all dependencies by running `npm install` in the project directory.
-
-Then, in the project directory, you can run `npm start` to run the app in the development mode.
-
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.
-
-You may also see any lint errors in the console.
-
-## Deploying
-
-We've included a GitHub Actions workflow that will automatically deploy your React app to GitHub Pages every time you push to the `main` branch. You can visit your site by visiting https://\<your GitHub username\>.github.io/react-studio
-
-Also there may be some latency with deploying, so it may take around 5 minutes after a commit to main before the website properly works.
+I considered the color contrast and organization of the layout in the visual design of the app to ensure that the users are able to complete an action as efficiently as possible. I also strove to implement some form of consistency in the hierarchy and design of the app by reusing the same component to showcase the items.
