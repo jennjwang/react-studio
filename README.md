@@ -16,4 +16,4 @@ I utilized two state variables to keep track of what’s in the shopping cart - 
 
 ## Note the usability principles considered for layout and hierarchy
 
-I considered the color contrast and organization of the layout in the visual design of the app to ensure that the users are able to complete an action as efficiently as possible. I also strove to implement some form of consistency in the hierarchy and design of the app by reusing the same component to showcase the items.
+I considered the color contrast and organization of the layout in the visual design of the app to ensure that the users are able to complete an action as efficiently as possible. I also strove to implement some form of consistency in the hierarchy and design of the app by reusing the same component to showcase the items. I also created hover effects for the add to cart button to make the app responsive such that users are able to absorb the feedback.
